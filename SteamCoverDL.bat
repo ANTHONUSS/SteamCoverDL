@@ -9,8 +9,8 @@ set /p ID=ID of steam game :
 set destination=%USERPROFILE%\Downloads
 set url=https://steamcdn-a.akamaihd.net/steam/apps/%ID%/
 set logo=logo.png
-set banner=banner.jpg
-set library=library.jpg
+set banner=library_600x900_2x.jpg
+set library=library_hero.jpg
 
 :: Téléchargement des fichiers avec curl
 curl -o "%destination%\%library%" %url%%library%
